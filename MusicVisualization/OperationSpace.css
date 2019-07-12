@@ -1,0 +1,74 @@
+.Display{
+  color: #fff;
+  margin-left: 20px;
+
+}
+
+.Selector{
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+  font-size: 10pt;
+  text-align: center;
+  width: 160px;
+  margin: 10px;
+  margin-bottom: 10px;
+  border-radius: 16px;
+}
+
+#LastSelector{
+  margin-bottom: 50px;
+}
+
+.Slider{
+  /* -webkit-appearance: none; for other brawser */
+  -moz-appearance: none;
+  background: none;
+  height:16px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.Slider::-moz-range-thumb {
+  /* -moz-appearance: none; /* Override default look */
+  appearance: none; */
+  width:10px;
+  height:10px;
+  background: #fff;
+  outline: none;
+}
+
+#transformSlider{
+
+  width:250px;
+}
+
+.CheckBox{
+  color: #fff;
+  margin-left: 20px;
+  margin-bottom: 3px;
+}
+
+#pointsliderMargin{
+  margin-top: 20px;
+}
+
+button {
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+  font-size: 16pt;
+  width:180px;
+  margin: 10px;
+  margin-bottom: 10px;
+  border-radius: 16px;
+}
+
+body {
+  background-color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:100;
+}
